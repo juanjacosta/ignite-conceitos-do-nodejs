@@ -46,7 +46,7 @@
   Usar new Date(deadline) irá realizar a transformação da string "ANO-MÊS-DIA" (por exemplo "2021-02-25") para uma data válida do JavaScript.
   O objeto do todo deve ser retornado na resposta da requisição.
 
-- [ ] PUT /todos/:id
+- [x] PUT /todos/:id
 
   A rota deve receber, pelo header da requisição, uma propriedade username contendo o username do usuário e receber as propriedades title e deadline dentro do corpo. É preciso alterar apenas o title e o deadline da tarefa que possua o id igual ao id presente nos parâmetros da rota.
 
