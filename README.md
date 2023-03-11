@@ -15,7 +15,7 @@
   Certifique-se que o ID seja um UUID, e de sempre iniciar a lista todos como um array vazio.
   O objeto do usuário deve ser retornado na resposta da requisição.
 
-- [ ] GET /todos
+- [x] GET /todos
 
   A rota deve receber, pelo header da requisição, uma propriedade username contendo o username do usuário e retornar uma lista com todas as tarefas desse usuário.
 
