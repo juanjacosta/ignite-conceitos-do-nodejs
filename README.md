@@ -54,7 +54,7 @@
 
   A rota deve receber, pelo header da requisição, uma propriedade username contendo o username do usuário e alterar a propriedade done para true no todo que possuir um id igual ao id presente nos parâmetros da rota.
 
-- [ ] DELETE /todos/:id
+- [x] DELETE /todos/:id
 
   A rota deve receber, pelo header da requisição, uma propriedade username contendo o username do usuário e excluir o todo que possuir um id igual ao id presente nos parâmetros da rota.
 
