@@ -22,6 +22,11 @@ function checksExistsUserAccount(request, response, next) {
   return next();
 }
 
+app.use((req, res, next) => {
+  console.log(req.method, " ", req.originalUrl);
+  next();
+});
+
 app.post("/users", (request, response) => {
   const { name, username } = request.body;
 
@@ -77,7 +82,7 @@ app.put("/todos/:id", checksExistsUserAccount, (request, response) => {
   todo.title = title;
   todo.deadline = new Date(deadline);
 
-  console.log(id);
+  // console.log(id);
   return response.status(200).json(todo);
 });
 
